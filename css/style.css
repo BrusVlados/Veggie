@@ -12,9 +12,12 @@ body{
     font-family: Merriweather;
 }
 
-
-
-.pt_50{padding-top: 45px;}
+.pt_45{padding-top: 45px;}
+.pt_75{padding-top: 75px;}
+.pb_30{padding-bottom: 30px;}
+.pb_85{padding-bottom: 85px;}
+.ts_16{font-size: 16px;}
+.ts_18{font-size: 18px;}
 .ts_40{font-size: 40px;}
 
 header{
@@ -24,16 +27,20 @@ header{
 }
 .main_text{
     font-family: Merriweather-Light;
-    padding-top: 420px;
 }
 a{
     color: rgb(155, 155, 155);
     padding: 8px;
 }
-
 a:hover{
     text-decoration: none;
     border: 2px solid rgb(203, 203, 203);
     padding: 6px;
     color: rgb(155, 155, 155);
 }
+
+/*S01*/
+#S01{
+    background: url("../img/yellow.png") center;
+}
+#S01 > p{font-size: 40px;}
