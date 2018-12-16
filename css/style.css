@@ -1,0 +1,39 @@
+@font-face {
+    font-family: Merriweather; /* Имя шрифта */
+    src: url(../fonts/Merriweather-Regular.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: Merriweather-Light; /* Имя шрифта */
+    src: url(../fonts/Merriweather-Light.ttf); /* Путь к файлу со шрифтом */
+}
+
+body{
+    font-size: 20px;
+    font-family: Merriweather;
+}
+
+
+
+.pt_50{padding-top: 45px;}
+.ts_40{font-size: 40px;}
+
+header{
+    background: url("../img/main.png") center;
+    height: 960px;
+    color: rgb(155, 155, 155);
+}
+.main_text{
+    font-family: Merriweather-Light;
+    padding-top: 420px;
+}
+a{
+    color: rgb(155, 155, 155);
+    padding: 8px;
+}
+
+a:hover{
+    text-decoration: none;
+    border: 2px solid rgb(203, 203, 203);
+    padding: 6px;
+    color: rgb(155, 155, 155);
+}
