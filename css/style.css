@@ -10,14 +10,22 @@
 body{
     font-size: 20px;
     font-family: Merriweather;
+    color: grey;
 }
 
 .pt_45{padding-top: 45px;}
 .pt_75{padding-top: 75px;}
+.pt_190{padding-top: 190px;}
+.pb_20{padding-bottom: 20px;}
 .pb_30{padding-bottom: 30px;}
+.pb_50{padding-bottom: 50px;}
+.pb_60{padding-bottom: 60px;}
 .pb_85{padding-bottom: 85px;}
+.pb_140{padding-bottom: 140px;}
+
 .ts_16{font-size: 16px;}
 .ts_18{font-size: 18px;}
+.ts_30{font-size: 30px;}
 .ts_40{font-size: 40px;}
 
 header{
@@ -44,3 +52,8 @@ a:hover{
     background: url("../img/yellow.png") center;
 }
 #S01 > p{font-size: 40px;}
+
+/*S02*/
+#S02{
+    background: url("../img/aboutback.png") center;
+}
