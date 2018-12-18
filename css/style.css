@@ -29,7 +29,7 @@ body{
 .ts_18{font-size: 18px;}
 .ts_30{font-size: 30px;}
 .ts_40{font-size: 40px;}
-
+.black{color: black;}
 header{
     background: url("../img/main.png") center;
     height: 960px;
@@ -56,11 +56,17 @@ a:hover{
 #S01 > p{font-size: 40px;}
 
 /*S02*/
+.square{
+    width: 190px;
+    height: 190px;
+    overflow: hidden;
+}
+/*S03*/
 #S03{
     background: url("../img/aboutback.png") center;
 }
 
-
+/*s04*/
 ul.oglavl {
     padding: 0;
     margin: 0;
