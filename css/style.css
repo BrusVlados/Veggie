@@ -14,10 +14,18 @@ body{
 }
 
 .pt_10{padding-top: 10px;}
+.pt_30{padding-top: 30px;}
+.pt_35{padding-top: 35px;}
 .pt_45{padding-top: 45px;}
+.pt_50{padding-top: 50px;}
+.pt_60{padding-top: 60px;}
 .pt_65{padding-top: 65px;}
 .pt_75{padding-top: 75px;}
+.pt_95{padding-top: 95px;}
+.pt_100{padding-top: 100px;}
+.pt_135{padding-top: 135px;}
 .pt_190{padding-top: 190px;}
+
 .pb_10{padding-bottom: 10px;}
 .pb_20{padding-bottom: 20px;}
 .pb_30{padding-bottom: 30px;}
@@ -27,11 +35,18 @@ body{
 .pb_85{padding-bottom: 85px;}
 .pb_100{padding-bottom: 100px;}
 .pb_140{padding-bottom: 140px;}
+
+.ml_10{ margin-left: 10px;}
+.ml_200{ margin-left: 200px;}
+
 .mb_0{margin-bottom: 0;}
+.ml_0{margin-left: 0;}
+
 .ts_16{font-size: 16px;}
 .ts_18{font-size: 18px;}
 .ts_30{font-size: 30px;}
 .ts_40{font-size: 40px;}
+
 .black{color: black;}
 header{
     background: url("../img/main.png") center;
@@ -41,11 +56,11 @@ header{
 .main_text{
     font-family: Merriweather-Light;
 }
-a{
+header a{
     color: rgb(155, 155, 155);
     padding: 8px;
 }
-a:hover{
+header a:hover{
     text-decoration: none;
     border: 2px solid rgb(203, 203, 203);
     padding: 6px;
@@ -73,6 +88,16 @@ a:hover{
 }
 
 /*s04*/
+#S04 a{
+    color: rgb(155, 155, 155);
+    padding: 8px;
+}
+#S04 a:hover{
+    text-decoration: none;
+    border: 2px solid rgb(203, 203, 203);
+    padding: 6px;
+    color: rgb(155, 155, 155);
+}
 ul.oglavl {
     padding: 0;
     margin: 0;
@@ -112,4 +137,35 @@ ul.oglavl span.page {
 .text_down{
     font-size: 14px;
     font-style: italic;
+}
+/*footer*/
+footer{
+    background: url("../img/backContact.png") right;
+    height: 900px;
+}
+footer a{
+    padding: 0px;
+}
+footer a:hover{
+    border: none;
+    text-decoration: none;
+}
+input[type="text"] {
+    border: none; /*цвет рамки*/
+    border-bottom: 1px solid grey;
+    background: rgba(0,0,0,0) !important; /* желательно прописывать, так как в Chrome при сохранных данных оно может быть желтым*/
+    outline: none; /* удаляет обводку в браузерах хром(желтая) и сафари(синяя)*/
+    overflow: hidden !important;
+}
+.form{
+    font-style: italic;
+}
+.formButton{
+    background: rgba(0,0,0,0) !important;
+    border: 1px solid grey;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: grey;
+    cursor: pointer;
 }
